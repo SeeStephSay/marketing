@@ -137,6 +137,9 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #FBFCFF;
 }
+body {
+  background-color: #011638;
+}
 a {
   color: #FBFCFF;
 }
@@ -152,4 +155,39 @@ h6 {
 img {
   max-width: 100%;
   height: auto;
+}
+nav {
+  height: 10vh;
+  font-size: 1.9rem;
+  background-color: #40367C;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #FBFCFF;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav a {
+  text-decoration: none;
+}
+@media (max-width: 500px) {
+  nav {
+    flex-direction: column;
+  }
+}
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+main .image-section img {
+  height: 100%;
+  width: 100%;
+}
+main .about {
+  height: 50vh;
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 40px 20px;
 }
