@@ -9,6 +9,7 @@
         
         <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab&display=swap" rel="stylesheet">
         <link href="css/index.css" rel="stylesheet">
+        <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
 
         <!--[if lt IE 9]>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -16,43 +17,99 @@
     </head>
 
     <body>
-    <div class="wrapper">
-        <header>
-            <nav>
-                <a href="#">Home</a>
-                <a href="about.html">About Our Team</a>
-                <a href="#success-stories">Success Stories</a>
-                <a href="#investor">Become An Investor</a>
-                <a href="#founder">Become A Founder</a>
-            </nav>
-        </header>
+        <div class="wrapper">
+            <header>
+                <nav>
+                    <a href="#">Home</a>
+                    <a href="about.html">About Our Team</a>
+                    <a href="#success-stories">Success Stories</a>
+                    <a href="#investor">Become An Investor</a>
+                    <a href="#founder">Become A Founder</a>
+                </nav>
+            </header>
 
-        <main>
-            <section class="image-section">
-                <img src="img/splashimg.jpg" alt="person using virtual reality headset" /> 
-                <!-- Photo by Stella Jacob on Unsplash-->
-            </section> <!--image-section closure-->
+            <main>
+                <section class="image-section">
+                    <img class="splash-img" src="img/splashimg.jpg" alt="person using virtual reality headset" /> 
+                    <!-- Photo by Stella Jacob on Unsplash-->
+                    <!-- <h1 class="w3-display-bottommiddle w3-container">SIXR VR Funding Platform</h1> -->
+                </section> <!--image-section closure-->
 
-            <section class="about w3-card" id="about">
-                <h2>Who We Are</h2>
-                <p>We are a group of motivated individuals who want to help the world succeed in reaching their dreams!</p>
-                <p>There are so many people in societies across the globe who don't currently have access to the vision that is virtual reality. We are here to change that.</p> 
-            </section> <!--about closure-->
+                <section class="about section-box" id="about">
+                    <h2>Who We Are</h2>
+                    <p>SIXR is a non-profit tech organization based in Seattle, comprised of a group of motivated individuals who want to help the world succeed in reaching their dreams!</p>
+                    <p>We help underrepresented groups who wouldn’t otherwise have access to technology. For example, we empower minorities to build virtual reality experiences to tell their story, which fosters empathy and understanding. We want to build a platform that provides tech entrepreneurs with limited resources access to business training, project capital raising, and mentoring.</p>
+                    <p>There are so many people in societies across the globe who don't currently have access to the vision that is virtual reality. We are here to change that.</p>
+                    <img src="img/SIXR-BBSkids.jpg" alt="kids playing VR" />
+                </section> <!--about closure-->
 
-            <section class="success-stories" id="success-stories">
-            </section> <!--success-stories closure-->
+                <section class="success-stories section-box" id="success-stories">
+                    <div class="success-summary">
+                        <h2>Success Stories</h2>
+                        <p>Meet Founders who have achieved great success with SIXR VR Fundraising!</p>
+                    </div> <!--success-summary closure-->
+                    <div class="success-row-container">
+                        <img class="card" src="img/success2.jpg" alt="neon sign says do something great" />
+                        <!--Photo by Clark Tibbs on Unsplash-->
+                        <div class="success-text">
+                            <h3>Do Something Project</h3>
+                            <p>Co-founders Amira and Jade Wong were sad to see so many young people letting life pass them by, so they decided to do something about it!</p>
+                        </div> <!--success-text closure-->
+                        <img class="card" src="img/success1.jpg" alt="'success got us here' written on a sidewalk" />
+                        <!--Photo by Ian Schneider on Unsplash-->
+                        <div class="success-text">
+                            <h3>The Passion Project</h3>
+                            <p>Founder Calliope Lopez uses her passion for "Silver Solopreneurs" (small business owners over the age of 60) to help them launch their own businesses to supplement their retirement.</p>
+                        </div> <!--success-text closure-->
+                        <img class="card" src="img/success3.jpg" alt="room of people with there's a place for you here text" />
+                        <!--Photo by Caleb Fisher on Unsplash-->
+                        <div class="success-text">
+                            <h3>Place for You Project</h3>
+                            <p>Founder Neha Vinasipran grew up in India, and moved to the US as an adult. She found that her accent seemed to set her apart, so she created a space for others to come where they always feel welcomed. </p>
+                        </div> <!--success-text closure-->
+                    </div> <!--success-row-container closure-->
+                </section> <!--success-stories closure-->
 
-            <section class="investor" id="investor">
-            </section> <!--investor closure-->
+                <section class="investor section-box" id="investor">
+                        <div>
+                            <img src="img/invest.jpg" alt="two men looking at a computer" />
+                            <!--Photo by Austin Distel on Unsplash-->
+                        </div>
 
-            <section class="founder" id="investor">
-            </section> <!--founder closure-->
-        </main>
+                        <div class="spacing">
+                        <h2>Become An Investor</h2>
+                        <p>Want to invest? Find out more here!</p>
+                        </div>
+
+                        <div>
+                            <a href="https://vr-funding-app.herokuapp.com"><button>Start Investing</button></a>
+                        </div>
+                    
+                </section> <!--investor closure-->
+
+                <section class="founder section-box" id="founder">
+                    <div>
+                        <img class="founder-img" src="img/founder.jpg" alt="woman wearing Creative shirt" />
+                        <!--Photo by Startaê Team on Unsplash-->
+                    </div>
+
+                    <div class="spacing">
+                        <h2>Become A Founder</h2>
+                        <p>Have an idea? Kick-start your dreams here!</p>
+                    </div>
+
+                    <div>
+                        <a href="https://vr-funding-app.herokuapp.com"><button>Start A Project</button></a>
+                    </div>
+                </section> <!--founder closure-->
+            </main>
 
             <footer>
                 <copyright>
+                    &copy; SIXR VR Lambda Team
                 </copyright>
                 <address>
+                    Brooklyn Ave NE and NE Ravenna Blvd, Seattle, WA, 98105
                 </address>
             </footer>
         </div> <!-- wrapper closure-->
