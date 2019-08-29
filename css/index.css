@@ -1,0 +1,342 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #FBFCFF;
+}
+body {
+  background-color: #011638;
+}
+a {
+  color: #FBFCFF;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto Slab', serif;
+  color: #FBFCFF;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+nav {
+  height: 10vh;
+  font-size: 1.9rem;
+  background-color: #011638;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #FBFCFF;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav a {
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: #40367C;
+  color: #FBFCFF;
+}
+@media (max-width: 500px) {
+  nav {
+    height: 20vh;
+    border: 1px solid #FBFCFF;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+}
+footer {
+  height: 10vh;
+  width: 100%;
+  font-size: 1.5rem;
+  background-color: #011638;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #FBFCFF;
+}
+.wrapper {
+  width: 100%;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+main .splash-img {
+  height: 100%;
+  width: 100%;
+}
+main #about-main {
+  width: 100%;
+}
+main #one,
+main #two,
+main #three,
+main #four,
+main #five,
+main #six {
+  border: 1px solid red;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+}
+main #one div,
+main #two div,
+main #three div,
+main #four div,
+main #five div,
+main #six div {
+  border: 1px dashed green;
+  text-align: center;
+  margin: 20px 50px;
+}
+main #one div h2,
+main #two div h2,
+main #three div h2,
+main #four div h2,
+main #five div h2,
+main #six div h2 {
+  padding: 15px;
+}
+main #one div h3,
+main #two div h3,
+main #three div h3,
+main #four div h3,
+main #five div h3,
+main #six div h3 {
+  padding-bottom: 10px;
+}
+main #one {
+  margin-top: 20vh;
+}
+main .people {
+  border: 2px solid #FBFCFF;
+  width: 15vw;
+  border-radius: 20%;
+}
+main .section-box {
+  height: 100vh;
+  font-size: 1.6rem;
+  text-align: center;
+  border: 1px solid #FBFCFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .spacing {
+  margin: 50px;
+}
+main h2 {
+  font-size: 1.8rem;
+  padding-bottom: 40px;
+}
+main .about {
+  flex-direction: column;
+}
+main .about img {
+  border: 1px solid #FBFCFF;
+  max-width: 70vh;
+  max-height: 70vh;
+  border-radius: 10%;
+  margin-top: 25px;
+}
+main .about p {
+  line-height: 1.2;
+  padding: 0 100px;
+}
+main div .card {
+  /* Add shadows to create the "card" effect */
+  width: 20%;
+  margin: 110px 50px 50px 50px;
+  border: 1px solid #FBFCFF;
+  border-radius: 5px;
+}
+main .success-stories {
+  flex-direction: column;
+}
+main .success-stories .success-row-container {
+  display: flex;
+  flex-direction: row;
+}
+main .success-stories div.success-text {
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+main .success-stories div.success-text h3 {
+  font-size: 1.8rem;
+  margin: 25px 0px;
+}
+main .investor img {
+  height: 60vh;
+  width: 80vh;
+  border: 1px solid #FBFCFF;
+  border-radius: 20%;
+  margin: 0 0 0 0;
+}
+main .founder {
+  flex-direction: row-reverse;
+}
+main .founder .founder-img {
+  height: 60vh;
+  width: 80vh;
+  border: 1px solid #FBFCFF;
+  border-radius: 20%;
+  margin: 0 0 0 0;
+}
+main button {
+  color: #FBFCFF;
+  background-color: #40367C;
+  height: 10vh;
+  font-size: 1.6rem;
+  padding: 10px;
+  margin: 50px;
+  border-radius: 10px;
+}
+main button:hover {
+  background-color: #49C1A7;
+  color: #FBFCFF;
+}
