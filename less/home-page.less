@@ -17,17 +17,21 @@ main {
     #about-main {
         width: 100%;
     }
-    #one, #two, #three, #four, #five, #six {
-        border: 1px solid red;
+    #one, #two, #three, #four, #five, #six, #seven {
+        border: 1px solid @button-bg;
         height: 30vh;
         display: flex;
         flex-direction: row;
         justify-content: center;
+        align-self: center;
         margin: 20px;
+        padding: 15px;
         div {
-            border: 1px dashed green;
+            border: 1px solid @main-bg;
             text-align: center;
-            margin: 20px 50px;
+            height: 20vh;
+            width: 20vw;
+            margin: 20px 20px 20px 40px;
             h2 {
                 padding: 15px;
             }

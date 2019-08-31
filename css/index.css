@@ -214,30 +214,37 @@ main #two,
 main #three,
 main #four,
 main #five,
-main #six {
-  border: 1px solid red;
+main #six,
+main #seven {
+  border: 1px solid #49C1A7;
   height: 30vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-self: center;
   margin: 20px;
+  padding: 15px;
 }
 main #one div,
 main #two div,
 main #three div,
 main #four div,
 main #five div,
-main #six div {
-  border: 1px dashed green;
+main #six div,
+main #seven div {
+  border: 1px solid #40367C;
   text-align: center;
-  margin: 20px 50px;
+  height: 20vh;
+  width: 20vw;
+  margin: 20px 20px 20px 40px;
 }
 main #one div h2,
 main #two div h2,
 main #three div h2,
 main #four div h2,
 main #five div h2,
-main #six div h2 {
+main #six div h2,
+main #seven div h2 {
   padding: 15px;
 }
 main #one div h3,
@@ -245,7 +252,8 @@ main #two div h3,
 main #three div h3,
 main #four div h3,
 main #five div h3,
-main #six div h3 {
+main #six div h3,
+main #seven div h3 {
   padding-bottom: 10px;
 }
 main #one {
